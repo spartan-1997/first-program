@@ -1,3 +1,2 @@
-a=int(raw_input())
-b=int(raw_input())
+a,b = map(int,input().split())
 print a+b
